@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int a,b,sum=0;
+	printf("enter values of a and b:");
+	scanf("%d%d",&a,&b);
+	sum=a+b;
+	printf("sum of a and b is:%d",sum);
+	return 0;
+}
+
+
+OUTPUT:
+enter values of a and b:53 46
+sum of a and b is:99
